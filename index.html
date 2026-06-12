@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio THP - Mes Réalisations</title>
+    <!-- Bootswatch Theme (Lux) - Très professionnel, minimaliste et élégant -->
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/lux/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .project-card {
+            transition: all 0.3s ease;
+            border: none;
+            border-radius: 0;
+            overflow: hidden;
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #1a1a1a 0%, #333333 100%);
+            padding: 100px 0;
+        }
+        .badge-tech {
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <!-- Hero Header -->
+    <header class="hero-gradient text-white text-center mb-5">
+        <div class="container" data-aos="fade-down">
+            <h1 class="display-3 fw-bold mb-3">MES RÉALISATIONS THP</h1>
+            <p class="lead mb-0 text-uppercase ls-2">Module Bootstrap & Design Atomique</p>
+            <hr class="w-25 mx-auto bg-white opacity-50 my-4">
+            <p class="small text-muted">6 Projets - Du Débutant à l'Expert</p>
+        </div>
+    </header>
+
+    <main class="container mb-5">
+        <div class="row g-4">
+            
+            <!-- Projet 1: The Surfing Project -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="card h-100 shadow-sm project-card">
+                    <img src="https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=600&q=40" class="card-img-top" alt="Surfing">
+                    <div class="card-body">
+                        <span class="badge bg-secondary mb-2 badge-tech">Niveau 1 : Bases</span>
+                        <h4 class="card-title fw-bold">The Surfing Project</h4>
+                        <p class="card-text text-muted small">Première immersion dans Bootstrap. Création d'une landing page responsive pour une école de surf.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <a href="https://github.com/GamePartsOnline/THP_Thesurfingproject" class="btn btn-outline-dark btn-sm w-100 rounded-0">VOIR LE REPO</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 2: Community Showcase -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card h-100 shadow-sm project-card">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=40" class="card-img-top" alt="Community">
+                    <div class="card-body">
+                        <span class="badge bg-info mb-2 badge-tech">Bonus : Communauté</span>
+                        <h4 class="card-title fw-bold">Taverne des Moussaillons</h4>
+                        <p class="card-text text-muted small">Annuaire collaboratif pour recenser les projets de la session. Esprit de partage et d'entraide.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <a href="https://github.com/GamePartsOnline/THP_bonusprojet" class="btn btn-outline-dark btn-sm w-100 rounded-0">VOIR LE REPO</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 3: Art & Digital -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card h-100 shadow-sm project-card border-primary" style="border-top: 4px solid black !important;">
+                    <img src="https://images.unsplash.com/photo-1547891269-2152f923bb39?auto=format&fit=crop&w=600&q=40" class="card-img-top" alt="Art">
+                    <div class="card-body">
+                        <span class="badge bg-dark mb-2 badge-tech">Synthèse : Stratégie</span>
+                        <h4 class="card-title fw-bold">Art & Numérique</h4>
+                        <p class="card-text text-muted small">Application des principes d'Atomic Design et de Marketing Web. Transition créative vers le digital.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <a href="https://github.com/GamePartsOnline/THP_landingpage" class="btn btn-dark btn-sm w-100 rounded-0 shadow">VOIR LE PROJET FINAL</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 4: Orchidées -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="card h-100 shadow-sm project-card">
+                    <img src="https://images.unsplash.com/photo-1453904300235-0f2f60b15b5d?auto=format&fit=crop&w=600&q=40" class="card-img-top" alt="Orchids">
+                    <div class="card-body">
+                        <span class="badge bg-success mb-2 badge-tech">Expert : Botanique</span>
+                        <h4 class="card-title fw-bold">Excellence Orchidées</h4>
+                        <p class="card-text text-muted small">Site "Expert" intégrant parallaxe, tarifs, équipe et support flottant. Thème nature et frais.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <a href="#" class="btn btn-outline-dark btn-sm w-100 rounded-0">VOIR LE REPO</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 5: Canis Expert -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card h-100 shadow-sm project-card">
+                    <img src="https://images.unsplash.com/photo-1548191265-cc70d3d45ba1?auto=format&fit=crop&w=600&q=40" class="card-img-top" alt="Dogs">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark mb-2 badge-tech">Expert : Animaux</span>
+                        <h4 class="card-title fw-bold">Canis Encyclopedia</h4>
+                        <p class="card-text text-muted small">Encyclopédie complète avec guides d'éducation, soins vétérinaires et abonnements premium.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <a href="#" class="btn btn-outline-dark btn-sm w-100 rounded-0">VOIR LE REPO</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 6: Demoscene -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card h-100 shadow-sm project-card">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=40" class="card-img-top" alt="Demoscene">
+                    <div class="card-body">
+                        <span class="badge bg-primary mb-2 badge-tech">Expert : Tech Culture</span>
+                        <h4 class="card-title fw-bold">Demoscene Archive</h4>
+                        <p class="card-text text-muted small">Site futuriste célébrant l'art de l'optimisation. Manifeste du partage et de la collaboration.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <a href="#" class="btn btn-outline-dark btn-sm w-100 rounded-0">VOIR LE REPO</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-top py-5 text-center">
+        <div class="container">
+            <p class="text-uppercase ls-2 small mb-2">© 2026 MOUSSAILLON PORTFOLIO</p>
+            <p class="text-muted small">Fait avec Bootstrap 5 & Atomic Design durant la formation THP.</p>
+            <div class="mt-4">
+                <a href="#" class="text-dark me-3"><i class="fab fa-github fs-4"></i></a>
+                <a href="#" class="text-dark me-3"><i class="fab fa-linkedin fs-4"></i></a>
+                <a href="#" class="text-dark"><i class="fas fa-envelope fs-4"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
+</body>
+</html>
